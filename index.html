@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras de control</title>
+</head>
+<body>
+
+    <H1>Estructuras de control</H1>
+    
+    Calculo de edad
+    <button onclick="verificarEdad()">calcular</button>
+    <br>
+    <br>
+    Nota final de alumno
+    <button onclick="calculoNotaFinal()">calcular</button>
+    <br>
+    <br>
+    Aumento Trabajador
+    <button onclick="calculoAumentoTrabajador()">calcular</button>
+    <br>
+    <br>
+    Numero Mayor
+    <button onclick="calculoNumeroMayor()">calcular</button>
+    <br>
+    <br>
+    Descuento Coches
+    <button onclick="calculoDescuentoCoches()">calcular</button>
+    <br>
+    <br>
+    Descuento Viajes
+    <button onclick="calculoDescuentoViajes()">calcular</button>
+    <br>
+    <br>
+    Cargas de Valores
+    <button onclick="cargaValores()">calcular</button>
+    <br>
+    <br>
+    Tabla Multiplicar
+    <button onclick="tablaMultiplicar()">calcular</button>
+    <br>
+    <br>
+    Conversion de temperatura
+    <label for="celsiusInput">Ingrese la temperatura en Celsius:</label>
+    <input type="number" id="celsiusInput">
+    <button onclick="convertirTemperatura()">Convertir</button>
+    <p id="resultado"></p>
+    <br>
+    <br>
+    Turno Estudiantes
+    <div>
+        <h2>Turno Mañana</h2>
+        <input type="number" id="manana1">
+        <input type="number" id="manana2">
+        <input type="number" id="manana3">
+        <input type="number" id="manana4">
+        <input type="number" id="manana5">
+        <button onclick="calcularPromedio('manana')">Calcular Promedio</button>
+        <p id="promedioManana"></p>
+    </div>
+
+    <div>
+        <h2>Turno Tarde</h2>
+        <input type="number" id="tarde1">
+        <input type="number" id="tarde2">
+        <input type="number" id="tarde3">
+        <input type="number" id="tarde4">
+        <input type="number" id="tarde5">
+        <input type="number" id="tarde6">
+        <button onclick="calcularPromedio('tarde')">Calcular Promedio</button>
+        <p id="promedioTarde"></p>
+    </div>
+
+    <div>
+        <h2>Turno Noche</h2>
+        <input type="number" id="noche1">
+        <input type="number" id="noche2">
+        <input type="number" id="noche3">
+        <input type="number" id="noche4">
+        <input type="number" id="noche5">
+        <input type="number" id="noche6">
+        <input type="number" id="noche7">
+        <input type="number" id="noche8">
+        <input type="number" id="noche9">
+        <input type="number" id="noche10">
+        <input type="number" id="noche11">
+        <button onclick="calcularPromedio('noche')">Calcular Promedio</button>
+        <p id="promedioNoche"></p>
+    </div>
+
+    <p id="mensajeMayorPromedio"></p>
+    
+
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
